@@ -1,1 +1,85 @@
-test
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-size: 115%;
+  font-family: 'Ubuntu', sans-serif;
+  width: 95%;
+  max-width: 1200px;
+  margin: 15px;
+}
+
+div.sidebar {
+  position: fixed;
+  width: 158px;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  padding: 0px;
+  background-color: #F0F8FF;
+  border-right: 2px solid #000080;
+  overflow: scroll;
+  text-align: center;
+}
+
+button {
+  width: 130px;
+  padding: 3px;
+  color: #BDBDBD;
+  margin-left: 12px;
+  margin-right: auto;
+  margin: 10px;
+}
+
+div.information {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+
+div.information h1 {
+  color: #0000ff;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+div.information h2 {
+  color: #0000ff;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+div.information h4 {
+  color: #0000ff;
+  margin-top; 0px;
+  margin-bottom: 10px;
+}
+
+div.information th {
+  background-color: #BDBDBD;
+}
+
+div.information td.course {
+  background-color: yellow;
+}
+
+div.information td.food {
+  background-color: lightgreen;
+}
+
+footer {
+  margin-left: 160px;
+  text-align: left;
+  color: red;
+  font-size: 85%;
+  clear: both;
+  padding-top: 25px;
+}
+
+#aboutMe, #classSchedule {
+  width: 60%;
+  float: left;
+  padding-bottom: 15px;
+}
