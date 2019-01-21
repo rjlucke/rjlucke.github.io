@@ -62,6 +62,11 @@ div.information th {
   background-color: #BDBDBD;
 }
 
+div.information td {
+  background-color: #BDBDBD;
+  border: 1px solid black;
+}
+
 div.information td.course {
   background-color: yellow;
 }
